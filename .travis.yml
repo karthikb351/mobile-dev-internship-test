@@ -7,6 +7,9 @@ android:
     - extra-android-support
     - sys-img-armeabi-v7a-android-22
 
+jdk:
+  - oraclejdk8
+
 # Emulator Management: Create, Start and Wait
 before_script:
   - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
